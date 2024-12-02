@@ -40,3 +40,7 @@ a {
   margin: 0px;
   font-size: 28px;
 }
+
+a:hover {
+  color: #ea9a50;
+}
