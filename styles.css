@@ -3,8 +3,44 @@ body {
   color: white;
 }
 
-a {
-  color: white;
+div {
+  max-width: 600px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  border: solid 1px;
+  border-radius: 10px;
+}
+/* 🦊 Compléter les styles de votre teaser  */
+
+img {
+  background-color: #b8b8b8;
+  width: 200px;
+  height: 200px;
+  border: none;
+  margin: 20px;
+  border-radius: 10px;
 }
 
-/* 🦊 Compléter les styles de votre teaser  */
+.Text {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 22px;
+  border: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  gap: 25px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  margin: 0px;
+  font-size: 28px;
+}
+
+a:hover {
+  color: #ea9a50;
+}
